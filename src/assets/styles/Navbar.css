@@ -1,0 +1,63 @@
+#Navbar-Main {
+  position: relative;
+  top: 0px;
+  background-color: #adc4dd;
+  text-align: center;
+  padding-top: 10px;
+  width: 100vw;
+}
+
+#Navbar-Links{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+#Navbar-Expand{
+  display: none;
+}
+
+#Navbar-Collapse{
+  display: none;
+}
+
+.Navbar-Buttons{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.selectedLink{
+  border: 1px;
+  border-style: solid solid none solid;
+  border-radius: 5px 5px 0px 0px;
+}
+
+@media only screen and (max-width: 670px) {
+  #Navbar-Links{
+    display: none;
+  }
+
+  #Navbar-Expand{
+    display: inline-block;
+  }
+
+  #Navbar-Collapse{
+    display: inline-block;
+  }
+
+  .Navbar-Buttons{
+    margin: 0px;
+  }
+
+  .selectedLink{
+    border: 1px;
+    border-style: solid solid solid solid;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+
+
+

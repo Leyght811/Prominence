@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="40px" viewBox="0 0 72 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hamburger switch</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,0 L72,0 L72,8 L0,8 L0,0 Z M0,16 L72,16 L72,24 L0,24 L0,16 Z M0,32 L72,32 L72,40 L0,40 L0,32 Z" id="hamburger-switch" fill="#9dc3e6"></path>
+    </g>
+</svg>

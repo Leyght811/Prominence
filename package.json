@@ -1,0 +1,56 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "0.18.0",
+    "core-js": "^3.3.2",
+    "element-qsa-scope": "^1.1.0",
+    "glyphicons": "0.2.0",
+    "intersection-observer": "^0.7.0",
+    "jwt-decode": "2.2.0",
+    "lodash": "4.17.11",
+    "npm-git-install": "0.3.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "6.0.1",
+    "react-router-dom": "4.3.1",
+    "react-router-hash-link": "^1.2.2",
+    "react-script": "2.0.0",
+    "react-scripts": "2.1.1",
+    "react-tooltip": "3.10.0",
+    "react-transition-group": "^4.2.1",
+    "react-ui-dropdown": "0.3.4",
+    "redux": "4.0.1",
+    "redux-devtools": "3.5.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie < 11",
+    "not op_mini all",
+    "ie 11"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.1",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-redux": "^6.0.0",
+    "@types/react-router": "^5.0.3",
+    "@types/react-router-dom": "^4.3.4",
+    "prettier": "^1.18.2",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

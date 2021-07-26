@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="475px" viewBox="0 0 348 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>card-phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 5.81574548e-05 347.340945 5.81574548e-05 347.340945 474.277375 0 474.277375"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card-phone" transform="translate(-63.000000, 0.000000)">
+            <rect id="Rectangle-Copy-7" x="0" y="0" width="478" height="478"></rect>
+            <g id="/icons/ICON_Landline" transform="translate(63.500000, 0.000000)">
+                <g id="Landline">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M198.527042,358.768377 C204.31133,364.758315 211.523659,364.758315 220.183262,358.768377 C249.071042,333.349731 270.727262,321.384794 279.382056,330.352273 L342.922673,396.15196 C353.029549,406.61319 344.369947,429.039356 331.37333,443.996773 C182.655111,605.491065 -139.346519,71.6895437 67.1472616,2.89239792 C84.4808918,-3.09753958 107.584385,-0.10008125 113.34944,14.8573354 L140.789947,101.58446 C145.131768,113.544419 126.346056,128.501835 90.2459466,144.938065 C81.5863438,149.429273 78.6966041,156.898023 81.5863438,164.366773 C96.0302342,227.164023 150.892015,316.873669 198.541467,358.74846 L198.527042,358.768377 Z" id="Fill-1" fill="#364451" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

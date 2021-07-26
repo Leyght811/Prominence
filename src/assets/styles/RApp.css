@@ -1,0 +1,408 @@
+html, body, #root, .App{
+  height:100%;
+  margin: 0;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+}
+
+.wrapper{
+  height:100%;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+
+.navbar-login {
+  min-width:100%;
+  background-color: #fff;
+}
+
+.navbar-inner{
+  margin:0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width:100%;
+  height:70px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small-nav{
+  display: none;
+}
+
+.navbar-tall-logo{
+  height:50px;
+  cursor: pointer;
+}
+
+.navbar-login-buttons-holder{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-center{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column-right{
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.navbar-login-button{
+  color: #9dc3e6;
+  padding-left:10px;
+  padding-right:10px;
+  max-width: 150px;
+  height:35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none!important;
+  border-bottom: 4px solid transparent;
+  font-weight: 300;
+}
+
+.navbar-login-button.register{
+  font-weight: 500;
+}
+
+.navbar-login-button:hover{
+  color:#9dc3e6;
+  border-bottom: 4px solid #9dc3e6;
+}
+
+.navbar-login-button.active{
+  border-bottom: 4px solid #9dc3e6;
+}
+
+.login-background-container{
+  display: flex;
+  flex:1;
+  /* min-height: fit-content; */
+  width:100%;
+  background-color: #deecf8;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.login-background-container-inner{
+  width:100%;
+  height:100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 0 30px;
+  overflow-y: scroll;
+}
+
+.login-background-container-inner .wrapi{
+  position: relative;
+  display: flex;
+  width:100%;
+  height:100%;
+  align-items: center;
+  background-color: #a2c4444d;
+}
+
+/* .login-page-main-box{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  min-height:370px;
+  max-height: 500px;
+  width:60%;
+  min-width: 400px;
+  background-color: #4472c4;
+  overflow-y: scroll;
+
+} */
+.login-page-main-box{
+  display: block;
+  min-width:100%;
+}
+
+.left-box{
+  height:100%;
+  width:60%;
+  display: inline-block;
+}
+
+.right-box{
+  height:100%;
+  width:40%;
+  display: inline-block;
+}
+
+.top-block{
+  min-height:150px;
+  width:100%;
+  /* background-color: rgba(255, 230, 2, 0.445); */
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+}
+
+.login-page-greeting-text{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+  cursor: default;
+}
+
+.form-block{
+  display: flex;
+  /* flex:1; */
+  flex-direction: column;
+  width:100%;
+
+  /* max-width: 100%; */
+  background-color: rgba(194,213,237,0.8);
+  padding: 20px 20px;
+}
+
+.lp-text-input{
+  height:45px;
+  width:350px;
+  max-width: 90%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.lp-text-input input{
+  background-color: transparent;
+  border: none;
+  height:100%;
+  width:100%;
+}
+
+.sqare-button{
+  background-color: #4472c4;
+  height:45px;
+  width:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.absolute-position{
+  position: absolute;
+}
+
+.form-block form > .sqare-button span {
+  color:white;
+  font-weight: 300;
+}
+
+.form-block .link-text{
+  color:#9dc3e6;
+  /* margin-bottom: 0px; */
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.background-triangle{
+  position: fixed;
+  display: flex;
+  min-height:700px;
+  height:100%;
+  width:100%;
+  left:35%;
+  justify-content: center;
+  align-items: center;
+  background-color: #e09de686;
+
+}
+
+.triangle{
+  height:100%;
+}
+
+.lp-text-input input:focus {
+  outline:none;
+}
+
+.s{
+  height:100px;
+  width:100px;
+  background-color: black;
+}
+
+/* .phone-screenshot{
+  height:400px;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+} */
+
+.phone-screenshot{
+  height:400px;
+  /* display: flex; */
+  /* justify-self: center;
+  align-self: center; */
+  /* float: left; */
+  /* margin:50% 35%; */
+  /* position: absolute; */
+  /* top:50%; */
+}
+
+#nav-hamburger-switch{
+  height: 25px;
+  width:25px;
+  cursor: pointer;
+  transition: 300ms;
+
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.rotate90{
+  transform: rotate(90deg);
+}
+
+.show-block{
+  max-height:500px !important;
+}
+
+#toggled-list{
+  display: none;
+  max-height: 0;
+  width:100%;
+  background-color: #fff;
+  transition: 700ms;
+}
+
+
+.hidden{
+  display:none;
+}
+
+.fit-parent{
+  height:100%;
+  width:100%;
+  /* flex:1; */
+}
+
+.flex{
+  display:flex;
+}
+
+.float-left{
+  float:left;
+}
+
+
+
+.breadcrumbs{
+  position: relative;
+  /* width:100%; */
+  width:670px;
+  /* padding-left: 15px; */
+
+  /* height:40px; */
+}
+
+.rbreadcrumb{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  /* margin-left: -15px; */
+  width:229px;
+}
+
+.breadcrumb-svg{
+  /* position: absolute; */
+  height:42px;
+}
+.breadcrumb-text-holder{
+  position: absolute;
+  /* height:42px; */
+  width:229px;
+  /* text-align: center; */
+  /* padding-left:7px; */
+}
+.breadcrumb-text{
+  /* line-height: 42px; */
+  width:229px;
+  color:white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+
+@media only screen and (max-width: 700px){
+  .full-nav{
+    display:none;
+  }
+  .small-nav{
+    /* background-color: red; */
+    display: flex;
+  }
+  #toggled-list{
+    display: block;
+  }
+  .login-page-main-box{
+    width:100%;
+  }
+  .hide-on-small{
+    display:none;
+  }
+  .fill-width-on-small{
+    width:100%;
+  }
+}
+
+
+
+.fontsize21{
+  font-size: 21px;
+}
+.fontsize24{
+  font-size: 24px;
+}
+.b-pink{
+  background-color: #ff00aa59;
+}
+.b-red{
+  background-color: red;
+}
+.b-green{
+  background-color: green;
+}
+.b-gold{
+  background-color: gold;
+}
+
+.c-dark-blue{
+  color:rgb(54,56,81)
+}
+

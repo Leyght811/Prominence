@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1175px" height="58px" viewBox="0 0 1175 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>stepOne</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stepOne">
+            <path d="M1.09008239,0.5 L25.2056568,28.5171951 L1.09008239,56.5343903 L384.344668,56.5343903 L408.341667,28.5171951 L384.344668,0.5 L1.09008239,0.5 Z" id="Rectangle" stroke="#FFFFFF" fill="#F8A31E"></path>
+            <path d="M384.090082,0.5 L408.205657,28.5171951 L384.090082,56.5343903 L767.344668,56.5343903 L791.341667,28.5171951 L767.344668,0.5 L384.090082,0.5 Z" id="Rectangle-Copy" stroke="#FFFFFF" fill="#C0C0C0"></path>
+            <path d="M767.090082,0.5 L791.205657,28.5171951 L767.090082,56.5343903 L1150.34467,56.5343903 L1174.34167,28.5171951 L1150.34467,0.5 L767.090082,0.5 Z" id="Rectangle-Copy-2" stroke="#FFFFFF" fill="#C0C0C0"></path>
+            <text id="Create-your-Company" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                <tspan x="69" y="34">Create your Company Profile</tspan>
+            </text>
+            <text id="Create-your-Administ" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                <tspan x="439" y="34">Create your Administration Role</tspan>
+            </text>
+            <text id="Verify-your-Email-Ad" font-family="Helvetica" font-size="21" font-weight="normal" fill="#FFFFFF">
+                <tspan x="851" y="34">Verify your Email Address</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,65 @@
+#main-content-container-outer{
+  width:100%;
+  min-height:100%;
+}
+
+#main-cotent-container-inner{
+  max-width: 1200px;
+  padding-left:30px;
+  padding-right:30px;
+  margin: 0 auto;
+}
+
+.inner-app-main-container{
+  margin-left: 250px;
+  padding-top:50px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.inner-app-container-1000{
+  width:100%;
+  max-width: 1000px;
+}
+
+.card-design-inner-container{
+  width:fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.modal-bg-container{
+  position: fixed;
+  height:100%;
+  width:calc(100% - 280px);
+  /* background-color: rgba(233, 179, 179, 0.603); */
+  z-index:1;
+}
+
+.modal-window-container{
+  background-color: gold;
+  height:300px;
+  width:200px;
+  margin: 0 auto;
+  margin-top:3%;
+}
+
+.modal-window-container-orange{
+  background-color: #e4772f80;
+  height:150px;
+  width:100%;
+  max-width:500px;
+  margin: 0 auto;
+  margin-top:20%;
+}
+
+.no-padding{
+  padding:0;
+}
+
+.triangle-bg{
+  background-image: url("../img/trianglecutwide.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

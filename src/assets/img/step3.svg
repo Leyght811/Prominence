@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="650px" height="43px" viewBox="0 0 650 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>step3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="step3">
+            <g id="create-copy-2">
+                <path d="M1.30955152,0.5 L24.8011274,21.5 L1.30955152,42.5 L209.872159,42.5 L233.251757,21.5 L209.872159,0.5 L1.30955152,0.5 Z" id="arrow" stroke="#FFFFFF" fill="#A6A6A6"></path>
+                <text id="Create-your-Company" font-family="Helvetica" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="33" y="25">Create your Company Profile</tspan>
+                </text>
+            </g>
+            <g id="admin-copy-2" transform="translate(208.000000, 0.000000)">
+                <path d="M1.30955152,0.5 L24.8011274,21.5 L1.30955152,42.5 L209.872159,42.5 L233.251757,21.5 L209.872159,0.5 L1.30955152,0.5 Z" id="arrow-copy" stroke="#FFFFFF" fill="#A6A6A6"></path>
+                <text id="Create-your-Administ" font-family="Helvetica" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="27" y="25">Create your Administration Role</tspan>
+                </text>
+            </g>
+            <g id="verify-copy-2" transform="translate(416.000000, 0.000000)">
+                <path d="M1.30955152,0.5 L24.8011274,21.5 L1.30955152,42.5 L209.872159,42.5 L233.251757,21.5 L209.872159,0.5 L1.30955152,0.5 Z" id="arrow-copy-2" stroke="#FFFFFF" fill="#F8A31E"></path>
+                <text id="Verify-your-Email-Ad" font-family="Helvetica" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="43" y="25">Verify your Email Address</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
