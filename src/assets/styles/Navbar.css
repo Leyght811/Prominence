@@ -4,7 +4,7 @@
   background-color: #adc4dd;
   text-align: center;
   padding-top: 10px;
-  width: 100vw;
+  max-width: none;
 }
 
 #Navbar-Links{

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "0.18.0",
-    "core-js": "^3.3.2",
+    "core-js": "^3.16.0",
     "element-qsa-scope": "^1.1.0",
     "glyphicons": "0.2.0",
     "intersection-observer": "^0.7.0",
@@ -44,7 +44,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^24.0.17",
-    "@types/node": "^12.7.1",
+    "@types/node": "^12.20.17",
     "@types/react": "^16.9.1",
     "@types/react-dom": "^16.8.5",
     "@types/react-redux": "^6.0.0",
