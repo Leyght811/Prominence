@@ -8,17 +8,17 @@ export default function Navbar() {
 
     
     return (
-        <div id="Navbar-Main">
+        <div id="Navbar-Main" className="container">
             <div className="row">
-                <h1 id="Navbar-Title" className="col Header">
-                Prominence
-                </h1>
+                <div id="Navbar-Title" className="col Header">
+                    Prominence
+                </div>
             </div>
              
              <div className="row">
-                <h5 id="Navbar-Subtitle" className="col">
+                <div id="Navbar-Subtitle" className="col">
                     Curtains and Blinds
-                </h5>
+                </div>
              </div>
             
             <ul id="Navbar-Links" className="row Navbar-Buttons Header">
