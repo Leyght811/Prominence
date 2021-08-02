@@ -1,12 +1,26 @@
 #Background-Image{
     background-image: url("../img/705910e2f940448eb289d47200f4cab2.webp");
     height: 722px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+@media only screen and (max-width:1360px) {
+    #Background-Image{
+        /* background-size: auto auto; */
+        height: calc(100vh - 171px);
+    }
+}
+
+/* @media only screen and (min-height:723px) {
+
+} */
 
 #Home-Main{
     background-color: #adc4dd;
     text-align: center;
-    padding-top: 10px;
-    opacity: 0.9;
+    padding: 50px;
+    opacity: 0.7;
     
 }

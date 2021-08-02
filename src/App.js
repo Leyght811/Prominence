@@ -26,24 +26,26 @@ export default function App() {
             <Router>
                 <div id="Main">
                     <Navbar/>
-                    <Switch>
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
-                        <Route path="/about">
-                            <About/>
-                        </Route>
+                    <div style={{marginTop:"83px"}}>
+                        <Switch>
+                            <Route exact path="/">
+                                <Home />
+                            </Route>
+                            <Route path="/about">
+                                <About/>
+                            </Route>
 
-                        <Route path="/products">
-                            <Products/>
-                        </Route>
-                        <Route path="/opening">
-                            <OpeningHours/>
-                        </Route>
-                        <Route path="/contact">
-                            <Contact/>
-                        </Route>
-                    </Switch>
+                            <Route path="/products">
+                                <Products/>
+                            </Route>
+                            <Route path="/opening">
+                                <OpeningHours/>
+                            </Route>
+                            <Route path="/contact">
+                                <Contact/>
+                            </Route>
+                        </Switch>
+                    </div>
                     <Footer/>
                 </div>
                 
