@@ -1,0 +1,9 @@
+#AboutLeft{
+    background-color: #adc4dd;
+    padding-top: 50px;
+}
+
+#AboutRight{
+    background-image: url(../img/BrightLivingSpace.webp);
+    height: 1100px;
+}

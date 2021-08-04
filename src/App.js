@@ -14,6 +14,7 @@ import "./assets/styles/Containers.css";
 import "./assets/styles/Transitions.css";
 
 import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
 
 import Navbar from "./components/Blocks/Navbar"
 import Footer from "./components/Blocks/Footer";
@@ -52,15 +53,6 @@ export default function App() {
             </Router>
         </div>
         
-    )
-}
-
-
-function About() {
-    return (
-        <div>
-            <h1>About</h1>
-        </div>
     )
 }
 
