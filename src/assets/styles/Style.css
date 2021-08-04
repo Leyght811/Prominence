@@ -8,6 +8,10 @@ table.grid{
     color: #800000;
 }
 
+.Header2 {
+    font-size: 24px;
+}
+
 #Main{
     height: 100%;
     width: 100%;
