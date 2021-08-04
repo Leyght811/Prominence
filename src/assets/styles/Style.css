@@ -13,14 +13,39 @@ table.grid{
 }
 
 #Main{
-    height: 100%;
-    width: 100%;
+    min-height:100%;
+    position:relative;
 }
 
 h1 h5 {
     margin: 0;
     padding: 0;
 }
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#body{
+    /* padding:10px; */
+    /* padding-bottom:88px; */
+    /* margin-top: 83px; */
+    height: calc(100vh - 171px);
+    position: relative;
+    width: 100%;
+}
+
+#root, #App-Main{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
 
 
 

@@ -4,8 +4,8 @@ import "../../assets/styles/About.css"
 
 export default function About() {
     return(
-        <div className="container">
-            <div className="row">
+        <div className="container aboutContainer">
+            <div className="row aboutRow">
                 <div id="AboutLeft" className="col">
                     <span className="Header Header2">About Us</span>
                     <br />

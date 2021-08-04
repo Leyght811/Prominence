@@ -3,18 +3,25 @@
     height: 722px;
     padding: 30px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    
 }
 
-@media only screen and (max-width:1360px) {
+@media only screen and (max-height:722px) {
     #Background-Image{
-        /* background-size: auto auto; */
-        height: calc(100vh - 171px);
+        height: 100%;
     }
 }
 
 /* @media only screen and (min-height:723px) {
-
+    #Background-Image{
+        margin-top: calc(50vh - 502px);
+        height: 100%;
+    }
 } */
 
 #Home-Main{
