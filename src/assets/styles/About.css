@@ -5,5 +5,29 @@
 
 #AboutRight{
     background-image: url(../img/BrightLivingSpace.webp);
-    height: 1100px;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.aboutContainer{
+    position: relative;
+}
+
+.aboutRow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-height:1100px) {
+    .aboutRow{
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-height:1101px) {
+    #AboutRight{
+        height: 1100px;
+    }
 }
